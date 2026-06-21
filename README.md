@@ -9,7 +9,7 @@ Website Portofolio Syifa Rizki Mutia
 - CSS
 - React JS
 - Tailwind CSS
-- Flowbite REact
+- Flowbite React
 
 ## Cara Menjalankan
 1. npm run dev
