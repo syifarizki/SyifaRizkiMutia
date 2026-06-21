@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf")
+    format("truetype");
+}
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+@theme {
+  --font-sans:
+    "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --font-open: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-open);
+}
+[data-testid="carousel-indicator"] {
+  width: 8px;
+  height: 8px;
+}
+[data-testid="carousel-item"][data-active="false"] {
+  display: none;
+}
