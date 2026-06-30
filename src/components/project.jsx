@@ -5,6 +5,10 @@ import pasmeal from "../assets/images/pasmeal.png";
 import dashboardpasmeal from "../assets/images/dashboardpasmeal.png";
 import dekade from "../assets/images/4dekade.png";
 import epaper from "../assets/images/epaper.png";
+import ramadan from "../assets/images/ramadan.png";
+import jakarta from "../assets/images/jakarta.png";
+import tokobisnis from "../assets/images/tokobisnis.png";
+import interactive from "../assets/images/interactive.png";
 import ProjectCard from "./card/projectCard";
 export default function Project() {
   return (
@@ -73,6 +77,30 @@ export default function Project() {
               online newspaper editions, headline news, archived editions, and
               easy navigation through various sections in a modern and
               responsive interface."
+        />
+        <ProjectCard
+          image={ramadan}
+          title="Ramadan"
+          technologies={["Bootstrap", "Sass"]}
+          description="Ramadan 1447 H Widget is a special Ramadan webpage, providing quick access to Ramadan-related information and directing users to dedicated Ramadan content through a modern and responsive interface."
+        />
+        <ProjectCard
+          image={jakarta}
+          title="jakarta.bisnis.com"
+          technologies={["Laravel", "TailwindCSS"]}
+          description="Jakarta Bisnis Website Migration is a front-end development project, focusing on migrating the jakarta.bisnis.com interface from Bootstrap to Tailwind CSS and implementing interactive features through a responsive and modern interface."
+        />
+        <ProjectCard
+          image={tokobisnis}
+          title="TokoBisnis"
+          technologies={["Laravel", "Bootstrap"]}
+          description="Bisnis Indonesia Print Newspaper Ordering is an online subscription feature, providing newspaper subscription packages, order forms, and order confirmation through a responsive interface with interactive features to improve the user experience."
+        />
+        <ProjectCard
+          image={interactive}
+          title="Bisnis Interactive"
+          technologies={["Bootstrap"]}
+          description="Bisnis Interactive Trivia Quiz is an interactive quiz webpage, providing quiz content, progress tracking, and result displays through a modern and responsive interface. The project focuses on front-end improvements using Bootstrap."
         />
       </div>
     </div>
