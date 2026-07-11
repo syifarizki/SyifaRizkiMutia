@@ -20,12 +20,14 @@ export default function Project() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         <ProjectCard
+          link={"https://github.com/syifarizki/vers_bloom"}
           image={versbloom}
           title="VersBloom"
           technologies={["Laravel", "TailwindCSS"]}
           description="Vers Bloom is an ornamental plant e-commerce website, providing product catalogs, plant information, category-based navigation, and a responsive interface prototype to support users in exploring various plant products online."
         />
         <ProjectCard
+          link={"https://purelipuran.vercel.app/"}
           image={purelipuran}
           title="Purelipuran"
           technologies={["JS Vanila", "TailwindCSS"]}
@@ -34,6 +36,7 @@ export default function Project() {
               online booking through a responsive interface."
         />
         <ProjectCard
+          link={"https://github.com/e-wastepas-PPL-A/ewastepas-user-fe"}
           image={ewhale}
           title="E-whale"
           technologies={["React JS", "TailwindCSS"]}
@@ -43,6 +46,7 @@ export default function Project() {
               interface."
         />
         <ProjectCard
+          link={"https://github.com/syifarizki/PasMeal"}
           image={pasmeal}
           title="Pasmeal"
           technologies={["React JS", "TailwindCSS"]}
@@ -52,6 +56,7 @@ export default function Project() {
               responsive interface."
         />
         <ProjectCard
+          link={"https://github.com/syifarizki/Dashboard_PasMeal"}
           image={dashboardpasmeal}
           title="Dashboard Pasmeal"
           technologies={["React JS", "TailwindCSS"]}
@@ -61,6 +66,7 @@ export default function Project() {
               responsive interface."
         />
         <ProjectCard
+          link={"https://4dekade.vercel.app/"}
           image={dekade}
           title="4 Dekade"
           technologies={["TailwindCSS"]}
@@ -70,6 +76,7 @@ export default function Project() {
               interface."
         />
         <ProjectCard
+          link={"https://epaper.bisnis.com/"}
           image={epaper}
           title="E-paper"
           technologies={["Laravel", "TailwindCSS"]}
@@ -79,24 +86,28 @@ export default function Project() {
               responsive interface."
         />
         <ProjectCard
+          link={"https://bisnis.com/ramadan"}
           image={ramadan}
           title="Ramadan"
           technologies={["Bootstrap", "Sass"]}
           description="Ramadan 1447 H Widget is a special Ramadan webpage, providing quick access to Ramadan-related information and directing users to dedicated Ramadan content through a modern and responsive interface."
         />
         <ProjectCard
+          link={"https://gitlab.com/syifarizkimutia/jakarta"}
           image={jakarta}
           title="jakarta.bisnis.com"
-          technologies={["Laravel", "TailwindCSS"]}
+          technologies={["Laravel", "JavaScript", "TailwindCSS"]}
           description="Jakarta Bisnis Website Migration is a front-end development project, focusing on migrating the jakarta.bisnis.com interface from Bootstrap to Tailwind CSS and implementing interactive features through a responsive and modern interface."
         />
         <ProjectCard
+          link={"https://toko.bisnis.com/koran-cetak"}
           image={tokobisnis}
           title="TokoBisnis"
           technologies={["Laravel", "Bootstrap"]}
           description="Bisnis Indonesia Print Newspaper Ordering is an online subscription feature, providing newspaper subscription packages, order forms, and order confirmation through a responsive interface with interactive features to improve the user experience."
         />
         <ProjectCard
+          link={"https://interaktif.bisnis.com/trivia/"}
           image={interactive}
           title="Bisnis Interactive"
           technologies={["Bootstrap"]}

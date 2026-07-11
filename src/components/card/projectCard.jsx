@@ -1,11 +1,12 @@
 export default function ProjectCard({
+  link,
   image,
   title,
   description,
   technologies,
 }) {
   return (
-    <div className="bg-amber-400 rounded-xl border border-[#D6E4FF]">
+    <a href={link} target="_blank" className="bg-amber-400 rounded-xl border border-[#D6E4FF]">
       <div className="overflow-hidden rounded-t-xl cursor-pointer">
         <img
           src={image}
@@ -34,6 +35,6 @@ export default function ProjectCard({
           {description}
         </p>
       </div>
-    </div>
+    </a>
   );
 }

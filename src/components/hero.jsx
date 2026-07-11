@@ -11,9 +11,9 @@ export default function Hero() {
       </div>
       <div className="flex justify-center items-center mx-auto max-w-2xl mt-4">
         <div className="text-center text-[#e6e4e2] text-[16px] font-medium leading-7 tracking-wider">
-          Frontend Developer focused on building modern, responsive, and
-          user-friendly web interfaces with a strong attention to design and
-          user experience.
+          Web Developer focused on building modern, responsive, and
+          user-friendly web applications with clean code and intuitive user
+          experiences.
         </div>
       </div>
       <div className="flex justify-center mt-10 gap-5">

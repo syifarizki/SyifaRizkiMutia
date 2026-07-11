@@ -10,18 +10,19 @@ export default function About() {
         <div className="gap-3 text-[#e6e4e2] text-[16px] font-medium my-2">
           <p className="mb-4 leading-7">
             Hi, I'm Syifa, an Informatics Engineering graduate with a strong
-            interest in Front-End Development. I have experience building
-            responsive and user-friendly websites through internships,
-            independent study programs, and academic projects. I enjoy working
-            with technologies such as HTML, CSS, JavaScript, ReactJS, Tailwind
-            CSS, and Bootstrap to create modern web experiences.
+            interest in Web Development. I have experience building responsive
+            and functional web applications through internships, independent
+            study programs, and academic projects. I work with technologies such
+            as HTML, CSS, JavaScript, ReactJS, Tailwind CSS, Bootstrap, PHP, and
+            Laravel to develop modern web solutions.
           </p>
           <p className="mb-4 leading-7">
-            I enjoy transforming designs into interactive and functional
-            websites while paying attention to responsiveness and user
-            experience. I enjoy exploring new technologies and applying them to
-            real projects. My goal is to create modern, responsive interfaces
-            with clean code and a strong focus on user experience.
+            I enjoy turning ideas and designs into functional web applications
+            while paying attention to clean code, responsiveness, and usability.
+            I also enjoy learning new technologies and applying them to
+            real-world projects. My goal is to build modern, reliable, and
+            user-friendly web applications that provide a great experience for
+            users.
           </p>
         </div>
       </div>

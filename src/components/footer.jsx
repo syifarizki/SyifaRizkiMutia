@@ -11,8 +11,8 @@ export default function Footer({ scrollToSection }) {
               Syifa Rizki Mutia
             </div>
             <div className="text-[15px] text-white/80 font-medium">
-              Frontend Developer focused on crafting modern interfaces &
-              user-friendly web experiences
+              Web Developer building modern web applications with clean and
+              maintainable code.
             </div>
           </div>
           <div className="flex flex-col gap-4">
