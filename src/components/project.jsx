@@ -30,7 +30,7 @@ export default function Project() {
           link={"https://purelipuran.vercel.app/"}
           image={purelipuran}
           title="Purelipuran"
-          technologies={["JS Vanila", "TailwindCSS"]}
+          technologies={["JavaScript", "TailwindCSS"]}
           description="Purelipuran is a tourism website for Penglipuran Village,
               providing village information, tour packages, visitor reviews, and
               online booking through a responsive interface."
@@ -79,7 +79,7 @@ export default function Project() {
           link={"https://epaper.bisnis.com/"}
           image={epaper}
           title="E-paper"
-          technologies={["Laravel", "TailwindCSS"]}
+          technologies={["TailwindCSS", "JavaScript", "Laravel"]}
           description="Bisnis Indonesia E-Paper is a digital newspaper website, providing
               online newspaper editions, headline news, archived editions, and
               easy navigation through various sections in a modern and
@@ -96,14 +96,14 @@ export default function Project() {
           link={"https://gitlab.com/syifarizkimutia/jakarta"}
           image={jakarta}
           title="jakarta.bisnis.com"
-          technologies={["Laravel", "JavaScript", "TailwindCSS"]}
+          technologies={["JavaScript", "TailwindCSS", "Laravel"]}
           description="Jakarta Bisnis Website Migration is a front-end development project, focusing on migrating the jakarta.bisnis.com interface from Bootstrap to Tailwind CSS and implementing interactive features through a responsive and modern interface."
         />
         <ProjectCard
           link={"https://toko.bisnis.com/koran-cetak"}
           image={tokobisnis}
           title="TokoBisnis"
-          technologies={["Laravel", "Bootstrap"]}
+          technologies={["Bootstrap", "Laravel"]}
           description="Bisnis Indonesia Print Newspaper Ordering is an online subscription feature, providing newspaper subscription packages, order forms, and order confirmation through a responsive interface with interactive features to improve the user experience."
         />
         <ProjectCard
