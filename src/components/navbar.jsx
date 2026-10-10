@@ -56,31 +56,31 @@ export default function Navbar({ scrollToSection }) {
         <ul className="hidden md:flex gap-6">
           <li
             onClick={() => handleScroll("home")}
-            className="text-[#e6e4e2] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#8199bd] hover:text-amber-400 hover:rounded-2xl cursor-pointer"
+            className="text-[#fff2ba] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#f2e8d9] hover:text-[#1f3a5f] hover:scale-75 transition duration-500 hover:rounded-xl cursor-pointer"
           >
             Home
           </li>
           <li
             onClick={() => handleScroll("about")}
-            className="text-[#e6e4e2] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#8199bd] hover:text-amber-400 hover:rounded-2xl cursor-pointer"
+            className="text-[#fff2ba] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#f2e8d9] hover:text-[#1f3a5f] hover:scale-75 transition duration-500 hover:rounded-xl cursor-pointer"
           >
             About
           </li>
           <li
             onClick={() => handleScroll("experience")}
-            className="text-[#e6e4e2] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#8199bd] hover:text-amber-400 hover:rounded-2xl cursor-pointer"
+            className="text-[#fff2ba] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#f2e8d9] hover:text-[#1f3a5f] hover:scale-75 transition duration-500 hover:rounded-xl cursor-pointer"
           >
             Experience
           </li>
           <li
             onClick={() => handleScroll("skills")}
-            className="text-[#e6e4e2] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#8199bd] hover:text-amber-400 hover:rounded-2xl cursor-pointer"
+            className="text-[#fff2ba] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#f2e8d9] hover:text-[#1f3a5f] hover:scale-75 transition duration-500 hover:rounded-xl cursor-pointer"
           >
             Skills
           </li>
           <li
             onClick={() => handleScroll("project")}
-            className="text-[#e6e4e2] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#8199bd] hover:text-amber-400 hover:rounded-2xl cursor-pointer"
+            className="text-[#fff2ba] text-[16px] font-semibold uppercase px-3 py-2 hover:bg-[#f2e8d9] hover:text-[#1f3a5f] hover:scale-75 transition duration-500 hover:rounded-xl cursor-pointer"
           >
             Project
           </li>

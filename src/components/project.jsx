@@ -9,6 +9,7 @@ import ramadan from "../assets/images/ramadan.png";
 import jakarta from "../assets/images/jakarta.png";
 import tokobisnis from "../assets/images/tokobisnis.png";
 import interactive from "../assets/images/interactive.png";
+import weddingInvitation from "../assets/images/weddingInvitation.png"
 import ProjectCard from "./card/projectCard";
 export default function Project() {
   return (
@@ -112,6 +113,13 @@ export default function Project() {
           title="Bisnis Interactive"
           technologies={["Bootstrap"]}
           description="Bisnis Interactive Trivia Quiz is an interactive quiz webpage, providing quiz content, progress tracking, and result displays through a modern and responsive interface. The project focuses on front-end improvements using Bootstrap."
+        />
+        <ProjectCard
+          link={"https://test-fe-pearl.vercel.app/"}
+          image={weddingInvitation}
+          title="Wedding Invitation"
+          technologies={["Bootstrap", "jQuery", "AOS", "Swiper"]}
+          description="A responsive digital wedding invitation website featuring an elegant opening cover, wedding details, countdown timer, RSVP confirmation, photo gallery, wedding wishes, gift information, and background music."
         />
       </div>
     </div>
