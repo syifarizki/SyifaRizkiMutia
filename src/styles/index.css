@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* FONT */
+@font-face {
+  font-family: "Inter";
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/Inter-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Edu QLD Hand";
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/EduQLDHand-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Caveat";
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/Caveat-VariableFont_wght.ttf");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+@theme {
+  /* FONT */
+  --font-inter: "Inter", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-edu: "Edu QLD Hand", cursive;
+  --font-caveat: "Caveat", cursive;
+  /* COLOR */
+  --color-navy: #0a0f1d;
+  --color-cream: #f8fafc;
+  --color-terracotta: #c87556;
+  --color-light: #64748b;
+  --color-rose: #e9c7c0;
+  --color-accent: #64ffda;
+}
