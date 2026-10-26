@@ -4,24 +4,28 @@ export default function Sosmed() {
     <div className="flex gap-8 my-5">
       <a
         href="https://github.com/syifarizki"
+        target="_blank"
         className="text-light hover:text-terracotta"
       >
         <FaGithub className="w-8 h-8" />
       </a>
       <a
         href="https://gitlab.com/syifarizkimutia"
+        target="_blank"
         className="text-light hover:text-terracotta"
       >
         <FaGitlab className="w-8 h-8" />
       </a>
       <a
         href="https://www.linkedin.com/in/syifa-rizki-mutia-a0355729a"
+        target="_blank"
         className="text-light hover:text-terracotta"
       >
         <FaLinkedin className="w-8 h-8" />
       </a>
       <a
         href="https://www.instagram.com/syifarizki14?obrf=MzZtMzNvNjZoYWIx"
+        target="_blank"
         className="text-light hover:text-terracotta"
       >
         <FaInstagram className="w-8 h-8" />
